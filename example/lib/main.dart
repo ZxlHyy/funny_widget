@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:funny_widget_example/page/avatar_sphere_demo.dart';
+import 'package:funny_widget_example/page/clipper_view_test.dart';
 import 'package:funny_widget_example/page/group_avatar_demo.dart';
 import 'package:funny_widget_example/page/swiper_demo.dart';
 
@@ -46,6 +47,12 @@ class ExampleHomePage extends StatelessWidget {
         subtitle: '自动旋转的球形头像墙',
         icon: Icons.public_outlined,
         builder: (_) => const AvatarSphereDemoPage(),
+      ),
+      _DemoEntry(
+        title: 'Clipper View',
+        subtitle: '多形状裁剪与自定义 clipper 预览',
+        icon: Icons.cut_outlined,
+        builder: (_) => const ClipperViewTest(),
       ),
     ];
 

@@ -8,9 +8,9 @@
 
 [![pub package](https://img.shields.io/pub/v/funny_widget.svg)](https://pub.dev/packages/funny_widget)
 
-![swiper_3d](https://raw.githubusercontent.com/ZxlHyy/funny_widget/master/images/swiper_3d.gif)
-![group_purchase_avatar](https://raw.githubusercontent.com/ZxlHyy/funny_widget/master/images/group_purchase_avatar.gif)
-![avatar_sphere](https://raw.githubusercontent.com/ZxlHyy/funny_widget/master/images/avatar_sphere.gif)
+![swiper_3d](images/swiper_3d.gif)
+![group_purchase_avatar](images/group_purchase_avatar.gif)
+![avatar_sphere](images/avatar_sphere.png)
 
 ## Installation
 
@@ -39,6 +39,30 @@ class AvatarStackExample extends StatelessWidget {
       ],
       size: 48,
       maxVisibleCount: 3,
+    );
+  }
+}
+```
+
+```dart
+class AvatarSphereExample extends StatelessWidget {
+  const AvatarSphereExample({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: AvatarSphereWidget(
+        avatarUrls: const [
+          'https://picsum.photos/seed/funny-widget-a/80/80',
+          'https://picsum.photos/seed/funny-widget-b/80/80',
+          'https://picsum.photos/seed/funny-widget-c/80/80',
+          'https://picsum.photos/seed/funny-widget-d/80/80',
+          'https://picsum.photos/seed/funny-widget-e/80/80',
+          'https://picsum.photos/seed/funny-widget-f/80/80',
+        ],
+        radius: 140,
+        avatarSize: 56,
+      ),
     );
   }
 }
