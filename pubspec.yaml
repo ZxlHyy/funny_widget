@@ -14,8 +14,6 @@ topics:
 screenshots:
   - description: Grouped avatar stack with animated fixed-window mode.
     path: images/group_purchase_avatar.gif
-  - description: Draggable avatar sphere.
-    path: images/avatar_sphere.gif
   - description: Touch-driven 3D swiper carousel.
     path: images/swiper_3d.gif
   - description: ClipperView shape clipping demo.
