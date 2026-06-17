@@ -6,9 +6,9 @@ repository: https://github.com/heshuo/funny_widget
 documentation: https://pub.dev/documentation/funny_widget/latest/
 topics:
   - avatar
-  - 头像
+  - widget
   - swipe
-  - 3D
+  - carousel
   - sphere
 
 screenshots:
