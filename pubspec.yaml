@@ -5,11 +5,11 @@ publish_to: https://pub.dev
 repository: https://github.com/heshuo/funny_widget
 documentation: https://pub.dev/documentation/funny_widget/latest/
 topics:
-  - flutter
-  - widgets
   - avatar
-  - carousel
-  - animation
+  - 头像
+  - swipe
+  - 3D
+  - sphere
 
 screenshots:
   - description: Grouped avatar stack with animated fixed-window mode.
