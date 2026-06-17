@@ -1,7 +1,7 @@
 name: funny_widget
 description: A collection of animated Flutter widgets for avatars, grouped profile stacks, and 3D swipers.
 version: 0.0.1
-publish_to: https://pub.dev
+homepage: https://github.com/heshuo/funny_widget
 repository: https://github.com/heshuo/funny_widget
 documentation: https://pub.dev/documentation/funny_widget/latest/
 topics:
