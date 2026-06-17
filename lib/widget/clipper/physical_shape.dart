@@ -388,16 +388,4 @@ class RenderPhysicalShape extends _RenderPhysicalModelBase<Path> {
       DiagnosticsProperty<ShapeBorderClipper>('clipper', clipper),
     );
   }
-
-  Path _insetPath(Path src, double inset) {
-    final metrics = src.computeMetrics();
-    final result = Path();
-
-    for (final m in metrics) {
-      final extract = m.extractPath(0.0, m.length);
-      result.addPath(extract.shift(Offset(inset, inset)), Offset.zero);
-    }
-
-    return result;
-  }
 }
